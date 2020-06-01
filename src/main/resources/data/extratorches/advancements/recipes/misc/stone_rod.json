@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"extratorches:stone_rod"
+		]
+	},
+	"criteria": {
+		"has_cobblestone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:cobblestone"
+				}]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "extratorches:stone_rod"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_cobblestone",
+			"has_the_recipe"
+		]
+	]
+}
