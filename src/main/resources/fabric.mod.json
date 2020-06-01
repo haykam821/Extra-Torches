@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "extratorches",
+	"version": "1.0.0",
+	"name": "Extra Torches",
+	"description": "Adds additional torch types to Minecraft.",
+	"authors": [
+		"haykam821"
+	],
+	"contact": {
+		"homepage": "https://github.com/haykam821/Extra-Torches#readme",
+		"issues": "https://github.com/haykam821/Extra-Torches/issues"
+	},
+	"entrypoints": {
+		"main": [
+			"io.github.haykam821.extratorches.Main"
+		],
+		"client": [
+			"io.github.haykam821.extratorches.ClientMain"
+		]
+	},
+	"license": "MIT",
+	"icon": "assets/extratorches/icon.png",
+	"depends": {
+		"fabricloader": ">=0.4.0"
+	}
+}

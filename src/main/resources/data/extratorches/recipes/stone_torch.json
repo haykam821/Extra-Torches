@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"c",
+		"s"
+	],
+	"key": {
+		"c": [
+			{
+				"item": "minecraft:coal"
+			},
+			{
+				"item": "minecraft:charcoal"
+			}
+		],
+		"s": {
+			"item": "minecraft:cobblestone"
+		}
+	},
+	"result": {
+		"item": "extratorches:stone_torch",
+		"count": 4
+	}
+}
