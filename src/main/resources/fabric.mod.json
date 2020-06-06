@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "extratorches",
-	"version": "1.0.0",
+	"version": "${version}",
 	"name": "Extra Torches",
 	"description": "Adds additional torch types to Minecraft.",
 	"authors": [
